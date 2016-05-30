@@ -9,6 +9,9 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+app.listen(3434, function () {
+  console.log('Example app listening on port 3434!');
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
