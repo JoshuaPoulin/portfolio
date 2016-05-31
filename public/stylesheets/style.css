@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+.hometitle {
+  height: 150px;
+  width: 80vw;
+  background-color: white;
+}
